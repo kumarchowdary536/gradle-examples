@@ -12,7 +12,7 @@ apply plugin: 'war'
 apply plugin: 'org.akhikhl.gretty'
 
 gretty {
-    port = 8080
+    port = 10080
     contextPath = '/'
     servletContainer = 'jetty9'
 }
